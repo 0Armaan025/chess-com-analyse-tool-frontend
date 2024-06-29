@@ -45,11 +45,68 @@ body {
   flex-direction: row;
   width: 100%;
   align-items: center;
+  background: none;
   justify-content: center;
 }
 
 .allServicesBtn {
   background: #e7e8ec;
   align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
   font-family: "Poppins", sans-serif;
+  border: 0.2px solid black;
+  padding-bottom: 10px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.allServicesBtn:hover {
+  background: #f1f1f1;
+}
+
+.bookADemoBtn {
+  background: #000;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
+  border: 0.2px solid black;
+  padding-bottom: 10px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  margin-left: 20px;
+  border-radius: 2px;
+}
+
+.bookADemoBtn:hover {
+  background: #151515;
+}
+
+.bannerImageRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.bannerImageRow {
+  margin-bottom: 20px;
+}
+
+.bannerImageRow img {
+  border-radius: 4px;
+  padding: 1rem;
+  border: 1px solid black;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.bannerImageRow img:hover {
+  background: #d2d2d2;
+  transform: scale(1.05);
 }

@@ -10,7 +10,7 @@ const Navbar = () => {
 
       {/* Middle section: Navigation Links */}
       <div
-        className="flex gap-4 text-lg ml-[53rem]"
+        className="flex gap-4 text-lg ml-[38rem]"
         style={{ fontFamily: "Poppins" }}
       >
         <a href="#" className="hover:text-gray-700">
