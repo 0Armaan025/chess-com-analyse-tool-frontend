@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #00c9ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1f1f1f,
+    #001217
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #e7e7e7);
+}
+
+.homePageDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headingTitleForHome {
+  /* w-[28rem] text-[24rem] font-semibold */
+  width: 35rem;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+.subtitleHeaderForHome {
+  /* w-[28rem] text-[24rem] font-semibold */
+  width: 35rem;
+  margin-top: 10px;
+  font-size: 1.05rem;
+  font-family: "Poppins", sans-serif;
+  color: rgb(119, 119, 119);
+  font-weight: 400;
+}
+
+.buttonsDivForHome {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.allServicesBtn {
+  background: #e7e8ec;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}

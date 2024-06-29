@@ -3,26 +3,29 @@ import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="bg-gray-800 text-white py-4 px-6 flex justify-between items-center">
+    <div className=" py-4 px-6 flex justify-between items-center">
       <div className="text-lg font-semibold">
         <h2 style={{ fontFamily: "Poppins" }}>Chess Analyzer Tool</h2>
       </div>
 
       {/* Middle section: Navigation Links */}
       <div
-        className="flex gap-4 text-xl ml-[37rem]"
+        className="flex gap-4 text-lg ml-[53rem]"
         style={{ fontFamily: "Poppins" }}
       >
-        <a href="#" className="hover:text-gray-300">
+        <a href="#" className="hover:text-gray-700">
           Home
         </a>
-        <a href="#" className="hover:text-gray-300">
+        <a href="#" className="hover:text-gray-700">
           About
         </a>
       </div>
 
       {/* Right section: Sign Up Button */}
-      <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+      <button
+        className="bg-transparent hover:bg-white text-black font-semibold py-2 px-12 rounded border-[1.5px] border-black transition-all cursor-pointer"
+        style={{ fontFamily: "Poppins" }}
+      >
         Sign Up
       </button>
     </div>
