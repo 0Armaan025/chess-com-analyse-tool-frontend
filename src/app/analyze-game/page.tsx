@@ -78,20 +78,26 @@ const AnalyzeGamePage = (props: Props) => {
         <br />
 
         <div className="analysisDiv border border-1 border-black rounded-md p-[1rem]">
-          <h2>Best Moves: {analysis.White["best moves"].join(", ")}</h2>
-          <h2>
-            Excellent Moves: {analysis.White["excellent moves"].join(", ")}
-          </h2>
-          <h2>Good Moves: {analysis.White["good moves"].join(", ")}</h2>
-          <h2>Mistakes: {analysis.White["mistakes"].join(", ")}</h2>
-          <h2>Blunders: {analysis.White["blunders"].join(", ")}</h2>
-          <h2>Best Moves: {analysis.Black["best moves"].join(", ")}</h2>
-          <h2>
-            Excellent Moves: {analysis.Black["excellent moves"].join(", ")}
-          </h2>
-          <h2>Good Moves: {analysis.Black["good moves"].join(", ")}</h2>
-          <h2>Mistakes: {analysis.Black["mistakes"].join(", ")}</h2>
-          <h2>Blunders: {analysis.Black["blunders"].join(", ")}</h2>
+          <div className="white-analysis mb-4">
+            <h2 className="text-2xl mb-2">White Moves Analysis:</h2>
+            <h3>Best Moves: {analysis.White["best moves"].join(", ")}</h3>
+            <h3>
+              Excellent Moves: {analysis.White["excellent moves"].join(", ")}
+            </h3>
+            <h3>Good Moves: {analysis.White["good moves"].join(", ")}</h3>
+            <h3>Mistakes: {analysis.White["mistakes"].join(", ")}</h3>
+            <h3>Blunders: {analysis.White["blunders"].join(", ")}</h3>
+          </div>
+          <div className="black-analysis">
+            <h2 className="text-2xl mb-2">Black Moves Analysis:</h2>
+            <h3>Best Moves: {analysis.Black["best moves"].join(", ")}</h3>
+            <h3>
+              Excellent Moves: {analysis.Black["excellent moves"].join(", ")}
+            </h3>
+            <h3>Good Moves: {analysis.Black["good moves"].join(", ")}</h3>
+            <h3>Mistakes: {analysis.Black["mistakes"].join(", ")}</h3>
+            <h3>Blunders: {analysis.Black["blunders"].join(", ")}</h3>
+          </div>
         </div>
         <br />
 
